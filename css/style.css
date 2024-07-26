@@ -1,0 +1,49 @@
+body {
+    background-color: #000000;
+    color: bisque;
+    text-align: center;
+    font-size: large;
+}
+
+#recipe-nav-container {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding: 10px;
+    border: 2px solid bisque;
+    border-radius: 0 0 10px 10px;
+    margin: 0 30px 0 30px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    filter: drop-shadow(0px 0px 5px rgb(228, 221, 146));
+}
+
+h3 + ul, h4 + ol {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid burlywood;
+    padding: 30px;
+    margin: 15px;
+}
+
+img {
+    border: 3px solid burlywood;
+    border-style: double;
+    padding: 5px;
+}
+
+ol li {
+    text-align: left;
+    margin-top: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-shadow: 0px 0px 10px whitesmoke;
+}
