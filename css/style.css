@@ -5,6 +5,16 @@ body {
     font-size: large;
 }
 
+.block {
+    box-sizing: border-box;
+    display: block;
+    margin: 15px auto;
+    border: 2px dotted burlywood;
+    width: 500px;
+    height: 50px;
+    padding: 0px 210px;
+}
+
 #recipe-nav-container {
     display: flex;
     justify-content: center;
@@ -16,6 +26,7 @@ body {
 }
 
 a {
+    display: block;
     text-decoration: none;
     color: aliceblue;
 }
@@ -31,6 +42,8 @@ h3 + ul, h4 + ol {
     border: 2px solid burlywood;
     padding: 30px;
     margin: 15px;
+    border-radius: 10px;
+    background-color: rgb(21, 21, 21);
 }
 
 img {
@@ -39,11 +52,20 @@ img {
     padding: 5px;
 }
 
-ol li {
+ol,li {
     text-align: left;
     margin-top: 12px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     text-shadow: 0px 0px 10px whitesmoke;
+}
+
+strong {
+    display: inline-block;
+    color: #000000;
+    background-color: rgb(212, 176, 129);
+    margin-right: 10px;
+    padding: 3px;
+    border-radius: 5px;
 }
